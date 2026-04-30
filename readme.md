@@ -8,6 +8,8 @@ This script frees up disk space by clearing system and user cache files.
 - Clears temporary system files (/private/var/folders)
 - Clears system logs (/private/var/log)
 
+### Download the File
+Put it anywhere you'd like
 ### How to run
 1. Open Terminal and go to the script folder
 
@@ -34,6 +36,7 @@ If prompted, enter your Mac password (sudo required)
 ```bash ls```
 
 Look for mac_cleanup.sh
+If you use zsh like I do (the superior shell) then just leave bash off
 
 Notes
 - Safe to run occasionally (e.g., yearly or when storage is low)
