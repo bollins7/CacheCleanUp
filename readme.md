@@ -11,15 +11,15 @@ This script frees up disk space by clearing system and user cache files.
 ### How to run
 1. Open Terminal and go to the script folder
 
-cd /path/to/script
+```bash cd /path/to/script```
 
 2. Make sure it’s executable (first time only)
 
-''' chmod +x mac_cleanup.sh
+```bash chmod +x mac_cleanup.sh```
 
 3. Run the script
 
-''' ./mac_cleanup.sh
+```bash ./mac_cleanup.sh```
 
 If prompted, enter your Mac password (sudo required)
 
@@ -27,11 +27,11 @@ If prompted, enter your Mac password (sudo required)
 
 1. Permission denied
 
-''' chmod +x mac_cleanup.sh
+```bash chmod +x mac_cleanup.sh```
 
 2. Not sure you're in the right folder
 
-''' ls
+```bash ls```
 
 Look for mac_cleanup.sh
 
